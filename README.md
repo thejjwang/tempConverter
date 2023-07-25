@@ -1,0 +1,1 @@
+Create a temperature converter app that allows users to convert temperatures between Celsius and Fahrenheit. Lift the state up to the parent component and pass the temperature value and the conversion functions as props to the child components responsible for handling the input and displaying the result.
