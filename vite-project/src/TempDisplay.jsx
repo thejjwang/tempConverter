@@ -1,7 +1,12 @@
 
-const TempDisplay = () => {
+const TempDisplay = ({temp}) => {
 
-    return
+    return (
+        <div>
+            <p>{temp} °</p>
+        </div>
+        
+    )
 }
 
 export default TempDisplay;
