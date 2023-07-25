@@ -11,13 +11,13 @@ const TempInput = () => {
         setInputValue(Number(e.target.value));
     }
 
-    const convertToC = (inputValue) => {
+    const convertToC = () => {
         const newCValue = (inputValue - 32) * (5/9);
         setTemp(newCValue);
     }
-    const convertToF = (inputValue) => {
+    const convertToF = () => {
         const newFValue = (inputValue * (9/5) + 32);
-        setTemp();
+        setTemp(newFValue);
     } 
 
     return (
